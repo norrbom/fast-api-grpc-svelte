@@ -2,7 +2,7 @@
 name = "fast-api-grpc-svelte"
 version = "0.0.2"
 description = "Fast API with Svelte and gRPC demo"
-authors = ["Anders Norrbom <anders.norrbom@ericsson.com>"]
+authors = ["Anders Norrbom <anders@norrbom.org>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
