@@ -15,3 +15,9 @@ The run target performs the following:
 - installs and updates the python packages required using poetry
 - generates python code from .proto files
 - starts the gRPC server
+
+## Run the client
+
+```sh
+export PYTHONPATH=$(pwd)/src && poetry run python src/example/client.py 
+```
