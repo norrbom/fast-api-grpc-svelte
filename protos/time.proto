@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package time;
+
+service Time {
+   rpc GetDatetime(Timestamp) returns (Datetime) {}
+}
+
+message Timestamp {
+  int64 ms = 1;
+}
+
+message Datetime {
+  int32 ms = 1;
+  string iso = 2;
+}

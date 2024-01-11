@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "fast-api-grpc-svelte"
+version = "0.0.2"
+description = "Fast API with Svelte and gRPC demo"
+authors = ["Anders Norrbom <anders.norrbom@ericsson.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.108.0"
+uvicorn = "^0.25.0"
+grpcio = "^1.60.0"
+grpcio-tools = "^1.60.0"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.4.4"
+black = "^23.12.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
